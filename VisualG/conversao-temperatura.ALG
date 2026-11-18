@@ -19,7 +19,7 @@ Inicio
 
       temperaturaF <- (temperaturaC / (5 / 9))  + 32
       
-      escreval(temperaturaF:8:1)
+      escreva("Temperatura em Fahrenheit: ", temperaturaF:8:1)
       
    caso "F"
       escreva("Digite a temperatura em Fahrenheit: ")
@@ -27,7 +27,7 @@ Inicio
       
       temperaturaC <- ( 5 / 9 ) * ( temperaturaF - 32 )
       
-      escreval(temperaturaC:8:1)
+      escreval("Temperatura em Celsius: ", temperaturaC:8:1)
       
       fimescolha
 
